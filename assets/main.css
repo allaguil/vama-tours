@@ -13,7 +13,7 @@ header {
 .logo {
   float: left;
   margin: 15px 0 0 30px;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Cabin Sketch';
   text-transform: uppercase;
   font-size: 22px;
   text-align: center; }
@@ -77,7 +77,7 @@ header {
 .logo {
   float: left;
   margin: 15px 0 0 30px;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Cabin Sketch';
   text-transform: uppercase;
   font-size: 22px;
   text-align: center; }
