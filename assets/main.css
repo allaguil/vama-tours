@@ -20,7 +20,9 @@ header {
   .logo .vama-logo {
     color: red; }
   .logo .tours-logo {
-    color: blue; }
+    color: blue;
+    position: relative;
+    bottom: 9px; }
 
 nav {
   float: right;
@@ -82,7 +84,9 @@ header {
   .logo .vama-logo {
     color: red; }
   .logo .tours-logo {
-    color: blue; }
+    color: blue;
+    position: relative;
+    bottom: 9px; }
 
 nav {
   float: right;
