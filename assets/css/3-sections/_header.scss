@@ -41,20 +41,33 @@ nav {
 }
 
 h1 {
-    text-align: center;
+    //text-align: center;
     font-size: 72px;
     font-weight: 700;
-    color: white;
+    //color: white;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-top: 10px;
+    //letter-spacing: 0.05em;
+    margin-top: 160px;
+    margin-left: 80px;
     clear: both;
     padding-top: 0px;
 
-    span {
+    span.blue {
+        color: blue;
         display: inline-block;
-        padding: 0.2em 0.2em;
-        border: white solid 10px;
+        margin: 0 -14px 0 -14px;
+    }
+
+    span.white {
+        color: white;
+        display: inline-block;
+        //padding: 0.2em 0.2em;
+    }
+
+    span.red {
+        color: red;
+        display: inline-block;
+        margin: 0 -14px 0 -14px;
     }
 }
 
