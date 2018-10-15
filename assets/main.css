@@ -1,19 +1,25 @@
 header {
   height: 450px;
-  background: #ccc; }
+  background: #ccc;
+  margin-left: 0px; }
 
 .logo {
-  background: #999; }
+  background: #999;
+  float: left;
+  margin: 10px 0 0 30px; }
 
-nav a {
-  display: inline-block;
-  margin-left: 20px;
-  color: rgba(0, 0, 0, 0.7);
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase; }
-  nav a:hover {
-    color: black; }
+nav {
+  float: right;
+  margin: 30px 30px 0 0; }
+  nav a {
+    display: inline-block;
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase; }
+    nav a:hover {
+      color: black; }
 
 h1 {
   text-align: center;
@@ -21,28 +27,47 @@ h1 {
   font-weight: 700;
   color: white;
   text-transform: uppercase;
-  letter-spacing: 0.05em; }
+  letter-spacing: 0.05em;
+  margin-top: 10px;
+  clear: both;
+  padding-top: 0px; }
   h1 span {
     display: inline-block;
-    padding: 0.5em 0.2em;
+    padding: 0.2em 0.2em;
     border: white solid 10px; }
+
+.kicker {
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: white;
+  line-height: 1;
+  clear: both;
+  padding-top: 100px; }
 
 header {
   height: 450px;
-  background: #ccc; }
+  background: #ccc;
+  margin-left: 0px; }
 
 .logo {
-  background: #999; }
+  background: #999;
+  float: left;
+  margin: 10px 0 0 30px; }
 
-nav a {
-  display: inline-block;
-  margin-left: 20px;
-  color: rgba(0, 0, 0, 0.7);
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase; }
-  nav a:hover {
-    color: black; }
+nav {
+  float: right;
+  margin: 30px 30px 0 0; }
+  nav a {
+    display: inline-block;
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase; }
+    nav a:hover {
+      color: black; }
 
 h1 {
   text-align: center;
@@ -50,10 +75,23 @@ h1 {
   font-weight: 700;
   color: white;
   text-transform: uppercase;
-  letter-spacing: 0.05em; }
+  letter-spacing: 0.05em;
+  margin-top: 10px;
+  clear: both;
+  padding-top: 0px; }
   h1 span {
     display: inline-block;
-    padding: 0.5em 0.2em;
+    padding: 0.2em 0.2em;
     border: white solid 10px; }
+
+.kicker {
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: white;
+  line-height: 1;
+  clear: both;
+  padding-top: 100px; }
 
 /*# sourceMappingURL=main.css.map */
