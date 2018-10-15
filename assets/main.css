@@ -29,35 +29,28 @@ nav {
     nav a:hover {
       color: black; }
 
-h1 {
-  font-size: 72px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 160px;
-  margin-left: 80px;
-  clear: both;
-  padding-top: 0px; }
-  h1 span.blue {
-    color: blue;
-    display: inline-block;
-    margin: 0 -14px 0 -14px; }
-  h1 span.white {
-    color: white;
-    display: inline-block; }
-  h1 span.red {
+.h1_wrapper {
+  position: relative;
+  top: 230px; }
+  .h1_wrapper h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #1452b6;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-left: 20px;
+    clear: both;
+    padding-top: 0px; }
+  .h1_wrapper .kicker {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    font-weight: 700;
     color: red;
-    display: inline-block;
-    margin: 0 -14px 0 -14px; }
-
-.kicker {
-  text-align: center;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: white;
-  line-height: 1;
-  clear: both;
-  padding-top: 100px; }
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    clear: both; }
 
 html, body {
   width: 100%;
@@ -90,34 +83,27 @@ nav {
     nav a:hover {
       color: black; }
 
-h1 {
-  font-size: 72px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 160px;
-  margin-left: 80px;
-  clear: both;
-  padding-top: 0px; }
-  h1 span.blue {
-    color: blue;
-    display: inline-block;
-    margin: 0 -14px 0 -14px; }
-  h1 span.white {
-    color: white;
-    display: inline-block; }
-  h1 span.red {
+.h1_wrapper {
+  position: relative;
+  top: 230px; }
+  .h1_wrapper h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #1452b6;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-left: 20px;
+    clear: both;
+    padding-top: 0px; }
+  .h1_wrapper .kicker {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    font-weight: 700;
     color: red;
-    display: inline-block;
-    margin: 0 -14px 0 -14px; }
-
-.kicker {
-  text-align: center;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: white;
-  line-height: 1;
-  clear: both;
-  padding-top: 100px; }
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    clear: both; }
 
 /*# sourceMappingURL=main.css.map */
