@@ -1,0 +1,31 @@
+header {
+  height: 450px;
+  background: #d11c1c; }
+
+.logo {
+  background: #999; }
+
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+header {
+  height: 450px;
+  background: #d11c1c; }
+
+.logo {
+  background: #999; }
+
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=main.css.map */

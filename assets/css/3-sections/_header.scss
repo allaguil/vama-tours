@@ -1,0 +1,20 @@
+header {
+    height: 450px;
+    background: rgb(209, 28, 28);
+}
+    
+.logo{
+        background: #999;
+}
+
+nav {
+    a {
+        display: inline-block;
+        margin-left: 20px;
+
+        color: rgba(0,0,0,0.7);
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
