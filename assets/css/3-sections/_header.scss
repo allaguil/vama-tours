@@ -1,6 +1,6 @@
 header {
     height: 450px;
-    background: rgb(52, 120, 226);
+    background: #ccc;
 }
     
 .logo{
@@ -16,5 +16,10 @@ nav {
         font-size: 14px;
         font-weight: 700;
         text-transform: uppercase;
+        
+        &:hover {
+            color: rgba(0,0,0,1);
+        }
     }
+    
 }
