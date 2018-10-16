@@ -58,7 +58,7 @@ nav {
 .h1_wrapper {
 
     position: relative;
-    top: 220px;
+    top: 180px;
 
     h1 {
         font-family: 'Cabin Sketch' !important;
@@ -78,9 +78,10 @@ nav {
         font-size: 34px;
         font-weight: 700;
         color: red;
-        text-transform: uppercase;
         letter-spacing: 0.05em;
         line-height: 1;
         clear: both;
+        margin-top: 30px;
+        position: absolute;
     }
 }
