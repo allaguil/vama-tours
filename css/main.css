@@ -11,32 +11,14 @@ header {
   background: url("../assets/img/banner.jpg") center center;
   background-size: cover; }
 
-.logo {
-  float: left;
-  margin: 0 auto;
-  font-family: 'Cabin Sketch' !important;
-  text-transform: uppercase;
-  font-size: 32px;
-  text-align: center; }
-  .logo .vama-logo {
-    color: red;
-    position: relative;
-    top: 10px;
-    right: 20px; }
-  .logo .tours-logo {
-    color: blue;
-    position: relative;
-    bottom: 14px;
-    right: 20px; }
-
 .h1_wrapper {
   position: relative;
-  top: 180px; }
+  top: 280px; }
   .h1_wrapper h1 {
     font-family: 'Cabin Sketch' !important;
-    font-size: 49px;
+    font-size: 46px;
     font-weight: 700;
-    color: #1452b6;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-left: 20px;
@@ -44,9 +26,9 @@ header {
     padding-top: 0px; }
   .h1_wrapper .kicker {
     font-family: 'Cabin Sketch' !important;
-    font-size: 34px;
+    font-size: 36px;
     font-weight: 700;
-    color: red;
+    color: #fff;
     letter-spacing: 0.05em;
     line-height: 1;
     clear: both;
@@ -56,8 +38,56 @@ header {
 .navbar {
   padding: 0rem 1rem; }
 
+.bg-light {
+  background-color: #000000 !important; }
+
+.navbar-toggler {
+  background-color: #fff; }
+
+.logo {
+  float: left;
+  margin: 0 auto;
+  font-family: 'Cabin Sketch' !important;
+  text-transform: uppercase;
+  font-size: 32px;
+  text-align: center; }
+  .logo .vama-logo {
+    color: #fff;
+    position: relative;
+    top: 10px;
+    right: 20px; }
+  .logo .tours-logo {
+    color: #fff;
+    position: relative;
+    bottom: 14px;
+    right: 20px; }
+
 .navbar {
   padding: 0rem 1rem; }
+
+.bg-light {
+  background-color: #000000 !important; }
+
+.navbar-toggler {
+  background-color: #fff; }
+
+.logo {
+  float: left;
+  margin: 0 auto;
+  font-family: 'Cabin Sketch' !important;
+  text-transform: uppercase;
+  font-size: 32px;
+  text-align: center; }
+  .logo .vama-logo {
+    color: #fff;
+    position: relative;
+    top: 10px;
+    right: 20px; }
+  .logo .tours-logo {
+    color: #fff;
+    position: relative;
+    bottom: 14px;
+    right: 20px; }
 
 html, body {
   width: 100%;
@@ -71,32 +101,14 @@ header {
   background: url("../assets/img/banner.jpg") center center;
   background-size: cover; }
 
-.logo {
-  float: left;
-  margin: 0 auto;
-  font-family: 'Cabin Sketch' !important;
-  text-transform: uppercase;
-  font-size: 32px;
-  text-align: center; }
-  .logo .vama-logo {
-    color: red;
-    position: relative;
-    top: 10px;
-    right: 20px; }
-  .logo .tours-logo {
-    color: blue;
-    position: relative;
-    bottom: 14px;
-    right: 20px; }
-
 .h1_wrapper {
   position: relative;
-  top: 180px; }
+  top: 280px; }
   .h1_wrapper h1 {
     font-family: 'Cabin Sketch' !important;
-    font-size: 49px;
+    font-size: 46px;
     font-weight: 700;
-    color: #1452b6;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-left: 20px;
@@ -104,9 +116,9 @@ header {
     padding-top: 0px; }
   .h1_wrapper .kicker {
     font-family: 'Cabin Sketch' !important;
-    font-size: 34px;
+    font-size: 36px;
     font-weight: 700;
-    color: red;
+    color: #fff;
     letter-spacing: 0.05em;
     line-height: 1;
     clear: both;
