@@ -33,3 +33,30 @@
     }
 
 }
+
+
+
+.navbar-collapse {
+    display: block;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    margin: 136px -16px 0px;
+    opacity: 0.8;
+    width:180px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    font-family: 'Cabin Sketch' !important;
+    display: block;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    padding: 20px 0px 0px 0px;
+    position: relative;
+    top: 8px;
+    right: 14px;
+}
