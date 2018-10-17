@@ -71,7 +71,8 @@ header {
   position: absolute;
   margin: 136px -16px 0px;
   opacity: 0.9;
-  width: 180px; }
+  width: 180px;
+  box-shadow: 5px 20px 28px #000000; }
 
 .nav-item {
   list-style: none; }
@@ -80,12 +81,16 @@ header {
   font-family: 'Cabin Sketch' !important;
   display: block;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   height: 50px;
   padding: 10px 0px 0px 0px;
   position: relative;
   top: 8px;
-  right: 14px; }
+  right: 14px;
+  text-transform: "uppercase" !important; }
+
+a:hover {
+  color: #00c875; }
 
 .navbar {
   padding: 0rem 1rem; }
@@ -122,7 +127,8 @@ header {
   position: absolute;
   margin: 136px -16px 0px;
   opacity: 0.9;
-  width: 180px; }
+  width: 180px;
+  box-shadow: 5px 20px 28px #000000; }
 
 .nav-item {
   list-style: none; }
@@ -131,12 +137,16 @@ header {
   font-family: 'Cabin Sketch' !important;
   display: block;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   height: 50px;
   padding: 10px 0px 0px 0px;
   position: relative;
   top: 8px;
-  right: 14px; }
+  right: 14px;
+  text-transform: "uppercase" !important; }
+
+a:hover {
+  color: #00c875; }
 
 html, body {
   width: 100%;
