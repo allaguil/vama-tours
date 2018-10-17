@@ -23,7 +23,8 @@ header {
     letter-spacing: 0.05em;
     margin-left: 30px;
     clear: both;
-    padding-top: 0px; }
+    padding-top: 0px;
+    text-shadow: 2px 2px 4px #000000; }
   .h1_wrapper .kicker {
     font-family: 'Cabin Sketch' !important;
     font-size: 36px;
@@ -34,7 +35,8 @@ header {
     clear: both;
     margin-top: 30px;
     margin-left: -10px;
-    position: absolute; }
+    position: absolute;
+    text-shadow: 2px 2px 4px #000000; }
 
 .navbar {
   padding: 0rem 1rem; }
@@ -57,12 +59,14 @@ header {
     color: #fff;
     position: relative;
     top: 10px;
-    right: 20px; }
+    right: 20px;
+    text-shadow: 2px 2px 4px #000000; }
   .logo .tours-logo {
     color: #00c875;
     position: relative;
     bottom: 14px;
-    right: 20px; }
+    right: 20px;
+    text-shadow: 2px 2px 4px #000000; }
 
 .navbar-collapse {
   top: -40px;
@@ -87,10 +91,12 @@ header {
   position: relative;
   top: 8px;
   right: 14px;
-  text-transform: "uppercase" !important; }
+  text-transform: "uppercase" !important;
+  text-shadow: 2px 2px 4px #000000; }
 
 a:hover {
-  color: #00c875; }
+  color: #00c875;
+  text-shadow: 2px 2px 4px #000000; }
 
 .navbar {
   padding: 0rem 1rem; }
@@ -113,12 +119,14 @@ a:hover {
     color: #fff;
     position: relative;
     top: 10px;
-    right: 20px; }
+    right: 20px;
+    text-shadow: 2px 2px 4px #000000; }
   .logo .tours-logo {
     color: #00c875;
     position: relative;
     bottom: 14px;
-    right: 20px; }
+    right: 20px;
+    text-shadow: 2px 2px 4px #000000; }
 
 .navbar-collapse {
   top: -40px;
@@ -143,10 +151,12 @@ a:hover {
   position: relative;
   top: 8px;
   right: 14px;
-  text-transform: "uppercase" !important; }
+  text-transform: "uppercase" !important;
+  text-shadow: 2px 2px 4px #000000; }
 
 a:hover {
-  color: #00c875; }
+  color: #00c875;
+  text-shadow: 2px 2px 4px #000000; }
 
 html, body {
   width: 100%;
@@ -172,7 +182,8 @@ header {
     letter-spacing: 0.05em;
     margin-left: 30px;
     clear: both;
-    padding-top: 0px; }
+    padding-top: 0px;
+    text-shadow: 2px 2px 4px #000000; }
   .h1_wrapper .kicker {
     font-family: 'Cabin Sketch' !important;
     font-size: 36px;
@@ -183,6 +194,7 @@ header {
     clear: both;
     margin-top: 30px;
     margin-left: -10px;
-    position: absolute; }
+    position: absolute;
+    text-shadow: 2px 2px 4px #000000; }
 
 /*# sourceMappingURL=main.css.map */
