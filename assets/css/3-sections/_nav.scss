@@ -3,7 +3,7 @@
 }
 
 .bg-light {
-    background-color: #000000!important;
+    background-image: linear-gradient(to bottom right, #0d945d, #065535);
 }
 
 .navbar-toggler {
@@ -40,7 +40,7 @@
 .navbar-collapse {
     top: -40px;
     display: block;
-    background: rgba(0, 0, 0, 0.9);
+    background-image: linear-gradient(to bottom right, #0d945d, #065535);
     position: absolute;
     margin: 136px -16px 0px;
     opacity: 0.8;
