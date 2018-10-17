@@ -43,7 +43,8 @@ header {
   background-color: #000000 !important; }
 
 .navbar-toggler {
-  background-color: #fff; }
+  background-color: #fff;
+  padding: .15rem .65rem !important; }
 
 .logo {
   float: left;
@@ -93,7 +94,8 @@ header {
   background-color: #000000 !important; }
 
 .navbar-toggler {
-  background-color: #fff; }
+  background-color: #fff;
+  padding: .15rem .65rem !important; }
 
 .logo {
   float: left;
