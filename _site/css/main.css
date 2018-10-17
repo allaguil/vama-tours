@@ -40,6 +40,7 @@ header {
   padding: 0rem 1rem; }
 
 .bg-light {
+  height: 80px;
   background-color: #000000 !important; }
 
 .navbar-toggler {
@@ -67,6 +68,7 @@ header {
   padding: 0rem 1rem; }
 
 .bg-light {
+  height: 80px;
   background-color: #000000 !important; }
 
 .navbar-toggler {
