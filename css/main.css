@@ -7,13 +7,13 @@ html, body {
   overflow-x: hidden; }
 
 header {
-  height: 380px;
+  height: 450px;
   background: url("../assets/img/banner.jpg") center center;
   background-size: cover; }
 
 .h1_wrapper {
   position: relative;
-  top: 230px; }
+  top: 280px; }
   .h1_wrapper h1 {
     font-family: 'Cabin Sketch' !important;
     font-size: 50px;
@@ -40,7 +40,6 @@ header {
   padding: 0rem 1rem; }
 
 .bg-light {
-  height: 72px;
   background-color: #000000 !important; }
 
 .navbar-toggler {
@@ -68,7 +67,6 @@ header {
   padding: 0rem 1rem; }
 
 .bg-light {
-  height: 72px;
   background-color: #000000 !important; }
 
 .navbar-toggler {
@@ -100,13 +98,13 @@ html, body {
   overflow-x: hidden; }
 
 header {
-  height: 380px;
+  height: 450px;
   background: url("../assets/img/banner.jpg") center center;
   background-size: cover; }
 
 .h1_wrapper {
   position: relative;
-  top: 230px; }
+  top: 280px; }
   .h1_wrapper h1 {
     font-family: 'Cabin Sketch' !important;
     font-size: 50px;
