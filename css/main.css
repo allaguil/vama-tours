@@ -7,7 +7,7 @@ html, body {
   overflow-x: hidden; }
 
 header {
-  height: 390px;
+  height: 440px;
   background: url("../assets/img/banner.jpg") center center;
   background-size: cover; }
 
@@ -81,7 +81,7 @@ header {
   color: white;
   font-size: 18px;
   height: 50px;
-  padding: 20px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
   position: relative;
   top: 8px;
   right: 14px; }
@@ -131,7 +131,7 @@ header {
   color: white;
   font-size: 18px;
   height: 50px;
-  padding: 20px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
   position: relative;
   top: 8px;
   right: 14px; }
@@ -144,7 +144,7 @@ html, body {
   overflow-x: hidden; }
 
 header {
-  height: 390px;
+  height: 440px;
   background: url("../assets/img/banner.jpg") center center;
   background-size: cover; }
 
