@@ -25,21 +25,6 @@ header {
     position: relative;
     bottom: 9px; }
 
-nav {
-  float: right;
-  margin: 30px 30px 0 0; }
-  nav a {
-    display: inline-block;
-    margin-left: 20px;
-    color: #fff;
-    font-size: 14px;
-    font-family: 'Cabin Sketch' !important;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none; }
-    nav a:hover {
-      color: black; }
-
 .h1_wrapper {
   position: relative;
   top: 180px; }
@@ -63,6 +48,12 @@ nav {
     clear: both;
     margin-top: 30px;
     position: absolute; }
+
+nav.navbarnav {
+  margin: 0; }
+
+nav.navbarnav {
+  margin: 0; }
 
 html, body {
   width: 100%;
@@ -89,21 +80,6 @@ header {
     color: blue;
     position: relative;
     bottom: 9px; }
-
-nav {
-  float: right;
-  margin: 30px 30px 0 0; }
-  nav a {
-    display: inline-block;
-    margin-left: 20px;
-    color: #fff;
-    font-size: 14px;
-    font-family: 'Cabin Sketch' !important;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none; }
-    nav a:hover {
-      color: black; }
 
 .h1_wrapper {
   position: relative;
