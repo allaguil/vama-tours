@@ -34,7 +34,6 @@ header {
     line-height: 1;
     clear: both;
     margin-top: 30px;
-    margin-left: -10px;
     position: absolute;
     text-shadow: 2px 2px 4px #000000; }
 
@@ -50,6 +49,22 @@ header {
   border-color: #fff !important;
   padding: .15rem .65rem !important; }
 
+.bar1, .bar2, .bar3 {
+  width: 15px;
+  height: 2px;
+  background-color: #fff;
+  margin: 5px auto;
+  transition: 0.4s ease; }
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-4px, 6px); }
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-4px, -6px); }
+
+.change .bar2 {
+  opacity: 0; }
+
 .logo {
   float: left;
   margin: 0 auto;
@@ -79,46 +94,23 @@ header {
   opacity: 0.9;
   width: 180px;
   box-shadow: 5px 20px 28px #000000; }
-
-.nav-item {
-  list-style: none; }
-
-.nav-link {
-  font-family: 'Cabin Sketch' !important;
-  display: block;
-  color: white;
-  font-size: 16px;
-  height: 50px;
-  padding: 10px 0px 0px 0px;
-  position: relative;
-  top: 8px;
-  right: 14px;
-  text-transform: "uppercase" !important;
-  text-shadow: 2px 2px 4px #000000; }
-
-a:hover {
-  color: #00c875;
-  text-shadow: 2px 2px 4px #000000; }
-
-.burguer-container {
-  display: inline-block;
-  cursor: pointer; }
-
-.bar1, .bar2, .bar3 {
-  width: 15px;
-  height: 2px;
-  background-color: #fff;
-  margin: 5px auto;
-  transition: 0.4s ease; }
-
-.change .bar1 {
-  transform: rotate(-45deg) translate(-4px, 6px); }
-
-.change .bar3 {
-  transform: rotate(45deg) translate(-4px, -6px); }
-
-.change .bar2 {
-  opacity: 0; }
+  .navbar-collapse .nav-item {
+    list-style: none; }
+    .navbar-collapse .nav-item .nav-link {
+      font-family: 'Cabin Sketch' !important;
+      display: block;
+      color: white;
+      font-size: 16px;
+      height: 50px;
+      padding: 10px 0px 0px 0px;
+      position: relative;
+      top: 8px;
+      right: 14px;
+      text-transform: "uppercase" !important;
+      text-shadow: 2px 2px 4px #000000; }
+    .navbar-collapse .nav-item .nav-link:hover {
+      color: #00c875;
+      text-shadow: 2px 2px 4px #000000; }
 
 .navbar {
   padding: 0rem 1rem;
@@ -132,6 +124,22 @@ a:hover {
   border-color: #fff !important;
   padding: .15rem .65rem !important; }
 
+.bar1, .bar2, .bar3 {
+  width: 15px;
+  height: 2px;
+  background-color: #fff;
+  margin: 5px auto;
+  transition: 0.4s ease; }
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-4px, 6px); }
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-4px, -6px); }
+
+.change .bar2 {
+  opacity: 0; }
+
 .logo {
   float: left;
   margin: 0 auto;
@@ -161,46 +169,23 @@ a:hover {
   opacity: 0.9;
   width: 180px;
   box-shadow: 5px 20px 28px #000000; }
-
-.nav-item {
-  list-style: none; }
-
-.nav-link {
-  font-family: 'Cabin Sketch' !important;
-  display: block;
-  color: white;
-  font-size: 16px;
-  height: 50px;
-  padding: 10px 0px 0px 0px;
-  position: relative;
-  top: 8px;
-  right: 14px;
-  text-transform: "uppercase" !important;
-  text-shadow: 2px 2px 4px #000000; }
-
-a:hover {
-  color: #00c875;
-  text-shadow: 2px 2px 4px #000000; }
-
-.burguer-container {
-  display: inline-block;
-  cursor: pointer; }
-
-.bar1, .bar2, .bar3 {
-  width: 15px;
-  height: 2px;
-  background-color: #fff;
-  margin: 5px auto;
-  transition: 0.4s ease; }
-
-.change .bar1 {
-  transform: rotate(-45deg) translate(-4px, 6px); }
-
-.change .bar3 {
-  transform: rotate(45deg) translate(-4px, -6px); }
-
-.change .bar2 {
-  opacity: 0; }
+  .navbar-collapse .nav-item {
+    list-style: none; }
+    .navbar-collapse .nav-item .nav-link {
+      font-family: 'Cabin Sketch' !important;
+      display: block;
+      color: white;
+      font-size: 16px;
+      height: 50px;
+      padding: 10px 0px 0px 0px;
+      position: relative;
+      top: 8px;
+      right: 14px;
+      text-transform: "uppercase" !important;
+      text-shadow: 2px 2px 4px #000000; }
+    .navbar-collapse .nav-item .nav-link:hover {
+      color: #00c875;
+      text-shadow: 2px 2px 4px #000000; }
 
 html, body {
   width: 100%;
@@ -237,7 +222,6 @@ header {
     line-height: 1;
     clear: both;
     margin-top: 30px;
-    margin-left: -10px;
     position: absolute;
     text-shadow: 2px 2px 4px #000000; }
 
