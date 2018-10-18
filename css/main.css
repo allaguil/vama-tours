@@ -108,7 +108,7 @@ a:hover {
   width: 15px;
   height: 2px;
   background-color: #fff;
-  margin: 5px 0;
+  margin: 5px auto;
   transition: 0.4s ease; }
 
 .change .bar1 {
@@ -190,7 +190,7 @@ a:hover {
   width: 15px;
   height: 2px;
   background-color: #fff;
-  margin: 5px 0;
+  margin: 5px auto;
   transition: 0.4s ease; }
 
 .change .bar1 {
