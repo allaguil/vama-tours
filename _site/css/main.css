@@ -54,13 +54,12 @@ header {
   cursor: pointer;
   position: relative;
   right: 0.6px; }
-
-.bar1, .bar2, .bar3 {
-  width: 15px;
-  height: 2px;
-  background-color: #fff;
-  margin: 5px auto;
-  transition: 0.4s ease; }
+  .burguer-container .bar1, .burguer-container .bar2, .burguer-container .bar3 {
+    width: 15px;
+    height: 2px;
+    background-color: #fff !important;
+    margin: 5px auto;
+    transition: 0.4s ease; }
 
 .change .bar1 {
   transform: rotate(-45deg) translate(-4px, 6px); }
@@ -74,18 +73,18 @@ header {
 .logo {
   float: left;
   margin: 0 auto;
-  font-family: 'Cabin Sketch' !important;
+  font-family: "Cabin Sketch" !important;
   text-transform: uppercase;
   font-size: 32px;
   text-align: center; }
   .logo .vama-logo {
-    color: #fff;
+    color: #fff !important;
     position: relative;
     top: 10px;
     right: 21px;
     text-shadow: 2px 2px 4px #000000; }
   .logo .tours-logo {
-    color: #00c875;
+    color: #00c875 !important;
     position: relative;
     bottom: 14px;
     right: 20px;
@@ -103,9 +102,9 @@ header {
   .navbar-collapse .nav-item {
     list-style: none; }
     .navbar-collapse .nav-item .nav-link {
-      font-family: 'Cabin Sketch' !important;
+      font-family: "Cabin Sketch" !important;
       display: block;
-      color: white;
+      color: #fff !important;
       font-size: 16px;
       height: 50px;
       padding: 10px 0px 0px 0px;
@@ -114,8 +113,8 @@ header {
       right: 14px;
       text-transform: "uppercase" !important;
       text-shadow: 2px 2px 4px #000000; }
-    .navbar-collapse .nav-item .nav-link:hover {
-      color: #00c875;
+    .navbar-collapse .nav-item a:hover {
+      color: #00c875 !important;
       text-shadow: 2px 2px 4px #000000; }
 
 .navbar {
@@ -135,13 +134,12 @@ header {
   cursor: pointer;
   position: relative;
   right: 0.6px; }
-
-.bar1, .bar2, .bar3 {
-  width: 15px;
-  height: 2px;
-  background-color: #fff;
-  margin: 5px auto;
-  transition: 0.4s ease; }
+  .burguer-container .bar1, .burguer-container .bar2, .burguer-container .bar3 {
+    width: 15px;
+    height: 2px;
+    background-color: #fff !important;
+    margin: 5px auto;
+    transition: 0.4s ease; }
 
 .change .bar1 {
   transform: rotate(-45deg) translate(-4px, 6px); }
@@ -155,18 +153,18 @@ header {
 .logo {
   float: left;
   margin: 0 auto;
-  font-family: 'Cabin Sketch' !important;
+  font-family: "Cabin Sketch" !important;
   text-transform: uppercase;
   font-size: 32px;
   text-align: center; }
   .logo .vama-logo {
-    color: #fff;
+    color: #fff !important;
     position: relative;
     top: 10px;
     right: 21px;
     text-shadow: 2px 2px 4px #000000; }
   .logo .tours-logo {
-    color: #00c875;
+    color: #00c875 !important;
     position: relative;
     bottom: 14px;
     right: 20px;
@@ -184,9 +182,9 @@ header {
   .navbar-collapse .nav-item {
     list-style: none; }
     .navbar-collapse .nav-item .nav-link {
-      font-family: 'Cabin Sketch' !important;
+      font-family: "Cabin Sketch" !important;
       display: block;
-      color: white;
+      color: #fff !important;
       font-size: 16px;
       height: 50px;
       padding: 10px 0px 0px 0px;
@@ -195,8 +193,8 @@ header {
       right: 14px;
       text-transform: "uppercase" !important;
       text-shadow: 2px 2px 4px #000000; }
-    .navbar-collapse .nav-item .nav-link:hover {
-      color: #00c875;
+    .navbar-collapse .nav-item a:hover {
+      color: #00c875 !important;
       text-shadow: 2px 2px 4px #000000; }
 
 html, body {

@@ -1,15 +1,23 @@
+// Nav Variables
+$primary-nav-color: linear-gradient(#09a163, #065535);
+$collapse-nav-color: linear-gradient(#0d945d, #065535);
+$green-nav-logo: #00c875 !important;
+$white-nav-color: #fff !important;
+$font-nav-stack: 'Cabin Sketch' !important;
+$textshadow-nav: 2px 2px 4px #000000;
+
 .navbar {
     padding: 0rem 1rem;
     height: 80px;
 }
 
 .bg-light {
-    background-image: linear-gradient(#09a163, #065535);
+    background-image: $primary-nav-color;
 }
 
 .navbar-toggler {
     background-color: transparent;
-    border-color: #fff !important;
+    border-color: $white-nav-color;
     padding: .15rem .65rem !important;
 }
 
@@ -19,14 +27,14 @@
     cursor: pointer;
     position: relative;
     right: 0.6px;
-}
 
-.bar1, .bar2, .bar3 {
-    width: 15px;
-    height: 2px;
-    background-color: #fff;
-    margin: 5px auto;
-    transition: 0.4s ease;
+    .bar1, .bar2, .bar3 {
+        width: 15px;
+        height: 2px;
+        background-color: $white-nav-color;
+        margin: 5px auto;
+        transition: 0.4s ease;
+    }
 }
 
 .change .bar1 {
@@ -46,25 +54,25 @@
 .logo {
     float: left;
     margin: 0 auto;
-    font-family: 'Cabin Sketch' !important;
+    font-family: $font-nav-stack;
     text-transform: uppercase;
     font-size: 32px;
     text-align: center;
 
     .vama-logo {
-        color: #fff;
+        color: $white-nav-color;
         position: relative;
         top: 10px;
         right: 21px;
-        text-shadow: 2px 2px 4px #000000;
+        text-shadow: $textshadow-nav;
     }
 
     .tours-logo {
-        color: #00c875;
+        color: $green-nav-logo;
         position: relative;
         bottom: 14px;
         right: 20px;
-        text-shadow: 2px 2px 4px #000000;
+        text-shadow: $textshadow-nav;
     }
 }
 
@@ -73,7 +81,7 @@
 .navbar-collapse {
     top: -56px;
     display: block;
-    background-image: linear-gradient(#0d945d, #065535);
+    background-image: $collapse-nav-color;
     position: absolute;
     margin: 136px -16px 0px;
     opacity: 0.9;
@@ -84,9 +92,9 @@
         list-style: none;
 
         .nav-link {
-            font-family: 'Cabin Sketch' !important;
+            font-family: $font-nav-stack;
             display: block;
-            color: white;
+            color: $white-nav-color;
             font-size: 16px;
             height: 50px;
             padding: 10px 0px 0px 0px;
@@ -94,11 +102,11 @@
             top: 8px;
             right: 14px;
             text-transform: "uppercase" !important;
-            text-shadow: 2px 2px 4px #000000;
+            text-shadow: $textshadow-nav;
         }
-        .nav-link:hover {
-            color: #00c875;
-            text-shadow: 2px 2px 4px #000000;
+        a:hover {
+            color: $green-nav-logo;
+            text-shadow: $textshadow-nav;
         }
     }
 }
