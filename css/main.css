@@ -51,7 +51,9 @@ header {
 
 .burguer-container {
   display: inline-block;
-  cursor: pointer; }
+  cursor: pointer;
+  position: relative;
+  right: 0.7px; }
 
 .bar1, .bar2, .bar3 {
   width: 15px;
@@ -130,7 +132,9 @@ header {
 
 .burguer-container {
   display: inline-block;
-  cursor: pointer; }
+  cursor: pointer;
+  position: relative;
+  right: 0.7px; }
 
 .bar1, .bar2, .bar3 {
   width: 15px;
