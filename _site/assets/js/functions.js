@@ -1,23 +1,12 @@
 $( document ).ready(function() {
 
-  // Get started!
-  // alert('YES');
+  // Burguer Nav Animation
+  var burguerNav = document.getElementsByClassName('navbar-toggler');
 
-  // function myfunction(X) {
-  //   console.log('entra');
-  //   X.classList.toggle("change");
-  // }
-
-
-  var burguer = document.getElementsByClassName('navbar-toggler');
-
-  if (burguer.length > 0) {
-
-    burguer[0].onclick = function() {  
-      burguer[0].classList.toggle("change");
+  if (burguerNav.length > 0) {
+    burguerNav[0].onclick = function() {  
+      burguerNav[0].classList.toggle("change");
     };
-
   };
-
 
 });
