@@ -98,6 +98,7 @@ header {
   margin: 136px -16px 0px;
   opacity: 0.9;
   width: 180px;
+  border: 1px solid #1b8a61;
   box-shadow: 5px 20px 28px #000000; }
   .navbar-collapse .nav-item {
     list-style: none; }
@@ -178,6 +179,7 @@ header {
   margin: 136px -16px 0px;
   opacity: 0.9;
   width: 180px;
+  border: 1px solid #1b8a61;
   box-shadow: 5px 20px 28px #000000; }
   .navbar-collapse .nav-item {
     list-style: none; }
