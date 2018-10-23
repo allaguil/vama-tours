@@ -12,6 +12,7 @@ header {
   background-size: cover; }
 
 .h1_wrapper {
+  display: none;
   position: relative;
   top: 230px; }
   .h1_wrapper h1 {
@@ -212,6 +213,7 @@ header {
   background-size: cover; }
 
 .h1_wrapper {
+  display: none;
   position: relative;
   top: 230px; }
   .h1_wrapper h1 {

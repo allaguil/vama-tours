@@ -1,5 +1,7 @@
 $( document ).ready(function() {
 
+  $('.h1_wrapper').fadeIn(3500);
+
   // Burguer Nav Animation
   var burguerNav = document.getElementsByClassName('navbar-toggler');
 
@@ -8,7 +10,5 @@ $( document ).ready(function() {
       burguerNav[0].classList.toggle("change");
     };
   };
-
-  $('.h1_wrapper').fadeIn(3500);
 
 });
