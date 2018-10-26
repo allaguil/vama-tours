@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-  $('.h1_wrapper').fadeIn(3500);
+  $('.h1_wrapper').fadeIn(4500);
 
   // Burguer Nav Animation
   var burguerNav = document.getElementsByClassName('navbar-toggler');
