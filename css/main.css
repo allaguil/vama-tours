@@ -108,7 +108,6 @@ header {
   display: block;
   position: absolute;
   margin: 136px -16px 0px;
-  opacity: 0.9;
   width: 180px; }
   .navbar-collapse .nav-item {
     list-style: none; }
@@ -196,7 +195,6 @@ header {
   display: block;
   position: absolute;
   margin: 136px -16px 0px;
-  opacity: 0.9;
   width: 180px; }
   .navbar-collapse .nav-item {
     list-style: none; }
