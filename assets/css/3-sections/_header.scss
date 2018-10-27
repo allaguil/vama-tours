@@ -1,5 +1,6 @@
 // Header Variables
 $vama-font-family: 'Cabin Sketch' !important;
+$green-nav-logo: #00dc81 !important;
 
 html,body {
     width: 100%;
@@ -28,7 +29,7 @@ header {
         font-family: $vama-font-family;
         font-size: 50px;
         font-weight: 700;
-        color: #00c875;
+        color: $green-nav-logo;
         text-transform: uppercase;
         letter-spacing: 0.05em;
         margin-left: 30px;

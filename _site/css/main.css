@@ -21,7 +21,7 @@ header {
     font-family: "Cabin Sketch" !important;
     font-size: 50px;
     font-weight: 700;
-    color: #00c875;
+    color: #00dc81 !important;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-left: 30px;
@@ -92,7 +92,7 @@ header {
     right: 21px;
     text-shadow: 2px 2px 4px #000000; }
   .logo .tours-logo {
-    color: #00c875 !important;
+    color: #00dc81 !important;
     position: relative;
     bottom: 14px;
     right: 20px;
@@ -180,7 +180,7 @@ header {
     right: 21px;
     text-shadow: 2px 2px 4px #000000; }
   .logo .tours-logo {
-    color: #00c875 !important;
+    color: #00dc81 !important;
     position: relative;
     bottom: 14px;
     right: 20px;
@@ -238,7 +238,7 @@ header {
     font-family: "Cabin Sketch" !important;
     font-size: 50px;
     font-weight: 700;
-    color: #00c875;
+    color: #00dc81 !important;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-left: 30px;
