@@ -23,8 +23,8 @@ $boxshadow-nav: 2px 2px 4px -2px #000000;
 
 .navbar-toggler {
     box-shadow: $boxshadow-nav;
-    background-color: transparent;
     border-color: $white-nav-color;
+    background-color: transparent;
     padding: .15rem .65rem !important;
 }
 
