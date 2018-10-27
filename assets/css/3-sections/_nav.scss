@@ -5,7 +5,7 @@ $green-nav-logo: #00c875 !important;
 $white-nav-color: #fff !important;
 $font-nav-stack: 'Cabin Sketch' !important;
 $textshadow-nav: 2px 2px 4px #000000;
-$vama-font-family: 'Cabin Sketch' !important;
+$boxshadow-nav: 2px 2px 4px -2px #000000;
 
 .navbar {
     padding: 0rem 1rem;
@@ -22,6 +22,7 @@ $vama-font-family: 'Cabin Sketch' !important;
 }
 
 .navbar-toggler {
+    box-shadow: $boxshadow-nav;
     background-color: transparent;
     border-color: $white-nav-color;
     padding: .15rem .65rem !important;
@@ -84,16 +85,21 @@ $vama-font-family: 'Cabin Sketch' !important;
 
 
 // Nav Collapse
+.show {
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+
 .navbar-collapse {
     top: -56px;
     display: block;
-    background-image: $collapse-nav-color;
     position: absolute;
     margin: 136px -16px 0px;
     opacity: 0.9;
     width: 180px;
-    border: 1px solid #1b8a61;
-    box-shadow: 5px 20px 28px #000000;
+    //border: 1px solid #1b8a61;
+    //box-shadow: 5px 20px 28px #000000;
 
     .nav-item {
         list-style: none;
@@ -112,7 +118,7 @@ $vama-font-family: 'Cabin Sketch' !important;
             text-shadow: $textshadow-nav;
         }
         a:hover {
-            color: $green-nav-logo;
+            color: #00ff95 !important;
             text-shadow: $textshadow-nav;
         }
     }
