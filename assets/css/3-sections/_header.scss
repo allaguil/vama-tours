@@ -1,3 +1,6 @@
+// Header Variables
+$vama-font-family: 'Cabin Sketch' !important;
+
 html,body {
     width: 100%;
     height: 100%;
@@ -7,9 +10,11 @@ html,body {
 }
 
 header {
-    height: 390px;
+    height: 540px;
     background: url("../assets/img/banner.jpg") center center;
     background-size: cover;
+    position: relative;
+    bottom: 80px;
 }
     
 
@@ -20,7 +25,7 @@ header {
     top: 230px;
 
     h1 {
-        font-family: 'Cabin Sketch' !important;
+        font-family: $vama-font-family;
         font-size: 50px;
         font-weight: 700;
         color: #00c875;
@@ -33,7 +38,7 @@ header {
     }
 
     .kicker {
-        font-family: 'Cabin Sketch' !important;
+        font-family: $vama-font-family;
         font-size: 36px;
         font-weight: 700;
         color: #fff;

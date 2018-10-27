@@ -5,6 +5,7 @@ $green-nav-logo: #00c875 !important;
 $white-nav-color: #fff !important;
 $font-nav-stack: 'Cabin Sketch' !important;
 $textshadow-nav: 2px 2px 4px #000000;
+$vama-font-family: 'Cabin Sketch' !important;
 
 .navbar {
     padding: 0rem 1rem;
@@ -12,6 +13,11 @@ $textshadow-nav: 2px 2px 4px #000000;
 }
 
 .bg-light {
+    background-color: transparent !important;
+    z-index: 1;
+}
+
+.sticky-top {
     background-image: $primary-nav-color;
 }
 
