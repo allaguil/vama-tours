@@ -130,6 +130,7 @@ header {
 .site-footer {
   background-color: #151719;
   color: #fff;
+  height: 220px;
   margin-top: 30px;
   padding-top: 30px; }
   .site-footer .footer-logo {
@@ -160,6 +161,8 @@ header {
     bottom: 20px;
     width: 100%;
     border-top: 1px solid white; }
+  .site-footer .footer-nav {
+    text-align: center; }
 
 .navbar {
   padding: 0rem 1rem;
