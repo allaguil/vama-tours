@@ -1,3 +1,7 @@
+window.addEventListener('scroll', () => {
+  console.log('Scrolled!')
+  });
+
 $( document ).ready(function() {
 
   $('.h1_wrapper').fadeIn(4500);
