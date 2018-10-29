@@ -4,28 +4,30 @@
     margin-top: 30px;
     padding-top: 30px;
 
-    // Footer Logo Styles
-    .footer-logo {
-        text-align: center;
-        margin-right: 20px;
-        font-family: $font-nav-stack;
-        text-transform: uppercase;
-        font-size: 24px;
+    .footer-left {
+        text-align: left;
 
-        .footer-vama-logo {
-            color: $white-nav-color;
-            position: relative;
-            top: 3px;
-            right: 21px;
-            text-shadow: $textshadow-nav;
-        }
+        .footer-logo {
+            text-align: left;
+            margin-right: 20px;
+            font-family: $font-nav-stack;
+            text-transform: uppercase;
+            font-size: 24px;
 
-        .footer-tours-logo {
-            color: $green-nav-logo;
-            position: relative;
-            bottom: 14px;
-            right: 20px;
-            text-shadow: $textshadow-nav;
+            .footer-vama-logo {
+                color: $white-nav-color;
+                position: relative;
+                top: 3px;
+                text-shadow: $textshadow-nav;
+            }
+
+            .footer-tours-logo {
+                color: $green-nav-logo;
+                position: relative;
+                bottom: 14px;
+                right: 5px;
+                text-shadow: $textshadow-nav;
+            }
         }
     }
 
