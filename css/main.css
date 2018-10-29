@@ -160,7 +160,7 @@ header {
   .site-footer .footer-line {
     position: relative;
     bottom: 20px;
-    width: 95%;
+    width: 100%;
     border-top: 1px solid white; }
 
 .navbar {
