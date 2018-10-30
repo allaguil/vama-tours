@@ -2,6 +2,7 @@
 
 
 // 1 - TOOLS
+@import '1-tools/tools-dir';
 @import '1-tools/bourbon/bourbon';
 @import '1-tools/fonts';
 @import '1-tools/normalize';
@@ -20,6 +21,7 @@
 @import '3-sections/sections-dir';
 @import '3-sections/nav';
 @import '3-sections/header';
+@import '3-sections/footer';
 
 
 // Google.fonts
