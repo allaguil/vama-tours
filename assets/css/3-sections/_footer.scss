@@ -46,13 +46,31 @@
         border-top: 1px solid white;
     }
 
+    .footer-line.two {
+        top: 10px;
+    }
+
 
 .footer-nav {
+    font-family: $vama-font-family;
     text-align: center;
+
+    .col {
+        text-transform: uppercase;
+        display: inline-block;
+        text-align: left;
+
+        a {
+            color: $white;
+            margin: 20px;
+        }
+    }
 }
 
-
-
-
+span.rights {
+    color: $gray;
+    font-size: 10px;
+    float: right;
+}
 
 }

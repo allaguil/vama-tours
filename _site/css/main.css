@@ -161,8 +161,22 @@ header {
     bottom: 20px;
     width: 100%;
     border-top: 1px solid white; }
+  .site-footer .footer-line.two {
+    top: 10px; }
   .site-footer .footer-nav {
+    font-family: "Cabin Sketch" !important;
     text-align: center; }
+    .site-footer .footer-nav .col {
+      text-transform: uppercase;
+      display: inline-block;
+      text-align: left; }
+      .site-footer .footer-nav .col a {
+        color: #fff !important;
+        margin: 20px; }
+  .site-footer span.rights {
+    color: #aaa !important;
+    font-size: 10px;
+    float: right; }
 
 .navbar {
   padding: 0rem 1rem;
@@ -326,7 +340,21 @@ header {
     bottom: 20px;
     width: 100%;
     border-top: 1px solid white; }
+  .site-footer .footer-line.two {
+    top: 10px; }
   .site-footer .footer-nav {
+    font-family: "Cabin Sketch" !important;
     text-align: center; }
+    .site-footer .footer-nav .col {
+      text-transform: uppercase;
+      display: inline-block;
+      text-align: left; }
+      .site-footer .footer-nav .col a {
+        color: #fff !important;
+        margin: 20px; }
+  .site-footer span.rights {
+    color: #aaa !important;
+    font-size: 10px;
+    float: right; }
 
 /*# sourceMappingURL=main.css.map */
