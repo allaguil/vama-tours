@@ -63,6 +63,7 @@
             margin: 15px;
         }
         a:hover {
+            text-decoration: none;
             color: $anchor-hover;
             text-shadow: $textshadow-nav;
         }
