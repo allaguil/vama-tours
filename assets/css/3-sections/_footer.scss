@@ -53,16 +53,14 @@
 
 .footer-nav {
     font-family: $vama-font-family;
-    text-align: center;
 
     .col {
         text-transform: uppercase;
         display: inline-block;
-        text-align: left;
 
         a {
             color: $white;
-            margin: 20px;
+            margin: 15px;
         }
         a:hover {
             color: $anchor-hover;
