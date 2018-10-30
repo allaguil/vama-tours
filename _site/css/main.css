@@ -160,7 +160,7 @@ header {
     position: relative;
     bottom: 20px;
     width: 100%;
-    border-top: 1px solid white; }
+    border-top: 1px solid gray; }
   .site-footer .footer-line.two {
     top: 10px; }
   .site-footer .footer-nav {
@@ -342,7 +342,7 @@ header {
     position: relative;
     bottom: 20px;
     width: 100%;
-    border-top: 1px solid white; }
+    border-top: 1px solid gray; }
   .site-footer .footer-line.two {
     top: 10px; }
   .site-footer .footer-nav {
