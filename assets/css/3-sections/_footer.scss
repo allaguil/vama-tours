@@ -64,6 +64,10 @@
             color: $white;
             margin: 20px;
         }
+        a:hover {
+            color: $anchor-hover;
+            text-shadow: $textshadow-nav;
+        }
     }
 }
 

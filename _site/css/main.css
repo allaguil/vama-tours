@@ -173,6 +173,9 @@ header {
       .site-footer .footer-nav .col a {
         color: #fff !important;
         margin: 20px; }
+      .site-footer .footer-nav .col a:hover {
+        color: #00ff95 !important;
+        text-shadow: 2px 2px 4px #000000; }
   .site-footer span.rights {
     color: #aaa !important;
     font-size: 10px;
@@ -352,6 +355,9 @@ header {
       .site-footer .footer-nav .col a {
         color: #fff !important;
         margin: 20px; }
+      .site-footer .footer-nav .col a:hover {
+        color: #00ff95 !important;
+        text-shadow: 2px 2px 4px #000000; }
   .site-footer span.rights {
     color: #aaa !important;
     font-size: 10px;

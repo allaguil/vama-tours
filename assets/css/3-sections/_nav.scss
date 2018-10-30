@@ -108,7 +108,7 @@
             text-shadow: $textshadow-nav;
         }
         a:hover {
-            color: #00ff95 !important;
+            color: $anchor-hover;
             text-shadow: $textshadow-nav;
         }
     }
