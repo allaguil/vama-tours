@@ -4,7 +4,7 @@
 }
 
 .bg-light {
-    background-color: transparent !important;
+    background-image: $primary-nav-color;
     z-index: 1;
     box-shadow: $boxshadow-nav;
 }
@@ -16,7 +16,6 @@
 .navbar-toggler {
     box-shadow: $boxshadow-nav;
     border-color: $white;
-    background-color: transparent;
     padding: .15rem .65rem !important;
 }
 
@@ -84,13 +83,15 @@
 }
 
 .navbar-collapse {
+    background-image: $primary-nav-color;
     top: -56px;
     display: block;
     position: absolute;
     margin: 136px -16px 0px;
     width: 180px;
-    //border: 1px solid #1b8a61;
-    //box-shadow: 5px 20px 28px #000000;
+    border: 1px solid #1b8a61;
+    box-shadow: 5px 20px 28px #000000;
+
 
     .nav-item {
         list-style: none;

@@ -12,7 +12,7 @@ header {
   background: url("../assets/img/banner.jpg") center center;
   background-size: cover;
   position: relative;
-  bottom: 80px; }
+  bottom: 40px; }
 
 .h1_wrapper {
   display: none;
@@ -46,7 +46,7 @@ header {
   height: 80px; }
 
 .bg-light {
-  background-color: transparent !important;
+  background-image: linear-gradient(#09a163, #065535);
   z-index: 1;
   box-shadow: 2px 2px 4px -2px #000000; }
 
@@ -56,7 +56,6 @@ header {
 .navbar-toggler {
   box-shadow: 2px 2px 4px -2px #000000;
   border-color: #fff !important;
-  background-color: transparent;
   padding: .15rem .65rem !important; }
 
 .burguer-container {
@@ -106,11 +105,14 @@ header {
   box-shadow: none; }
 
 .navbar-collapse {
+  background-image: linear-gradient(#09a163, #065535);
   top: -56px;
   display: block;
   position: absolute;
   margin: 136px -16px 0px;
-  width: 180px; }
+  width: 180px;
+  border: 1px solid #1b8a61;
+  box-shadow: 5px 20px 28px #000000; }
   .navbar-collapse .nav-item {
     list-style: none; }
     .navbar-collapse .nav-item .nav-link {
@@ -187,7 +189,7 @@ header {
   height: 80px; }
 
 .bg-light {
-  background-color: transparent !important;
+  background-image: linear-gradient(#09a163, #065535);
   z-index: 1;
   box-shadow: 2px 2px 4px -2px #000000; }
 
@@ -197,7 +199,6 @@ header {
 .navbar-toggler {
   box-shadow: 2px 2px 4px -2px #000000;
   border-color: #fff !important;
-  background-color: transparent;
   padding: .15rem .65rem !important; }
 
 .burguer-container {
@@ -247,11 +248,14 @@ header {
   box-shadow: none; }
 
 .navbar-collapse {
+  background-image: linear-gradient(#09a163, #065535);
   top: -56px;
   display: block;
   position: absolute;
   margin: 136px -16px 0px;
-  width: 180px; }
+  width: 180px;
+  border: 1px solid #1b8a61;
+  box-shadow: 5px 20px 28px #000000; }
   .navbar-collapse .nav-item {
     list-style: none; }
     .navbar-collapse .nav-item .nav-link {
@@ -282,7 +286,7 @@ header {
   background: url("../assets/img/banner.jpg") center center;
   background-size: cover;
   position: relative;
-  bottom: 80px; }
+  bottom: 40px; }
 
 .h1_wrapper {
   display: none;
