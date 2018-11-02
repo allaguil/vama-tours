@@ -19,11 +19,11 @@ header {
 
     display: none;
     position: relative;
-    top: 310px;
+    top: 320px;
 
     h1 {
         font-family: $vama-font-family;
-        font-size: 50px;
+        font-size: 52px;
         font-weight: 700;
         color: $green-nav-logo;
         text-transform: uppercase;
@@ -31,12 +31,12 @@ header {
         margin-left: 30px;
         clear: both;
         padding-top: 0px;
-        text-shadow: $textshadow-nav;
+        text-shadow: $text-shadow-header;
     }
 
     .kicker {
         font-family: $vama-font-family;
-        font-size: 36px;
+        font-size: 38px;
         font-weight: 700;
         color: #fff;
         letter-spacing: 0.05em;
@@ -44,6 +44,6 @@ header {
         clear: both;
         margin-top: 30px;
         position: absolute;
-        text-shadow: $textshadow-nav;
+        text-shadow: $text-shadow-header;
     }
 }
