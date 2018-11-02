@@ -110,8 +110,7 @@ header {
   display: block;
   position: absolute;
   margin: 136px -16px 0px;
-  width: 180px;
-  box-shadow: 5px 20px 28px #000000; }
+  width: 180px; }
   .navbar-collapse .nav-item {
     list-style: none; }
     .navbar-collapse .nav-item .nav-link {
@@ -252,8 +251,7 @@ header {
   display: block;
   position: absolute;
   margin: 136px -16px 0px;
-  width: 180px;
-  box-shadow: 5px 20px 28px #000000; }
+  width: 180px; }
   .navbar-collapse .nav-item {
     list-style: none; }
     .navbar-collapse .nav-item .nav-link {
