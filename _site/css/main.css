@@ -92,13 +92,13 @@ header {
     position: relative;
     top: 10px;
     right: 21px;
-    text-shadow: 2px 2px 1px #000000; }
+    text-shadow: 2px 1px 1px #000000; }
   .logo .tours-logo {
     color: #00dc81 !important;
     position: relative;
     bottom: 14px;
     right: 20px;
-    text-shadow: 2px 2px 1px #000000; }
+    text-shadow: 2px 1px 1px #000000; }
 
 .show {
   background-image: none;
@@ -110,8 +110,7 @@ header {
   display: block;
   position: absolute;
   margin: 136px -16px 0px;
-  width: 180px;
-  box-shadow: 2px 2px 4px -2px #000000; }
+  width: 180px; }
   .navbar-collapse .nav-item {
     list-style: none; }
     .navbar-collapse .nav-item .nav-link {
@@ -125,10 +124,10 @@ header {
       top: 8px;
       right: 14px;
       text-transform: "uppercase" !important;
-      text-shadow: 2px 2px 1px #000000; }
+      text-shadow: 2px 1px 1px #000000; }
     .navbar-collapse .nav-item a:hover {
       color: #00ff95 !important;
-      text-shadow: 2px 2px 1px #000000; }
+      text-shadow: 2px 1px 1px #000000; }
 
 .site-footer {
   background-color: #151719;
@@ -146,13 +145,13 @@ header {
       color: #fff !important;
       position: relative;
       top: 3px;
-      text-shadow: 2px 2px 1px #000000; }
+      text-shadow: 2px 1px 1px #000000; }
     .site-footer .footer-logo .footer-tours-logo {
       color: #00dc81 !important;
       position: relative;
       bottom: 14px;
       right: 5px;
-      text-shadow: 2px 2px 1px #000000; }
+      text-shadow: 2px 1px 1px #000000; }
   .site-footer .footer-right {
     text-align: right; }
     .site-footer .footer-right .footer-instagram {
@@ -177,7 +176,7 @@ header {
       .site-footer .footer-nav .col a:hover {
         text-decoration: none;
         color: #00ff95 !important;
-        text-shadow: 2px 2px 1px #000000; }
+        text-shadow: 2px 1px 1px #000000; }
   .site-footer span.rights {
     color: #aaa !important;
     font-size: 10px;
@@ -234,13 +233,13 @@ header {
     position: relative;
     top: 10px;
     right: 21px;
-    text-shadow: 2px 2px 1px #000000; }
+    text-shadow: 2px 1px 1px #000000; }
   .logo .tours-logo {
     color: #00dc81 !important;
     position: relative;
     bottom: 14px;
     right: 20px;
-    text-shadow: 2px 2px 1px #000000; }
+    text-shadow: 2px 1px 1px #000000; }
 
 .show {
   background-image: none;
@@ -252,8 +251,7 @@ header {
   display: block;
   position: absolute;
   margin: 136px -16px 0px;
-  width: 180px;
-  box-shadow: 2px 2px 4px -2px #000000; }
+  width: 180px; }
   .navbar-collapse .nav-item {
     list-style: none; }
     .navbar-collapse .nav-item .nav-link {
@@ -267,10 +265,10 @@ header {
       top: 8px;
       right: 14px;
       text-transform: "uppercase" !important;
-      text-shadow: 2px 2px 1px #000000; }
+      text-shadow: 2px 1px 1px #000000; }
     .navbar-collapse .nav-item a:hover {
       color: #00ff95 !important;
-      text-shadow: 2px 2px 1px #000000; }
+      text-shadow: 2px 1px 1px #000000; }
 
 html, body {
   width: 100%;
@@ -329,13 +327,13 @@ header {
       color: #fff !important;
       position: relative;
       top: 3px;
-      text-shadow: 2px 2px 1px #000000; }
+      text-shadow: 2px 1px 1px #000000; }
     .site-footer .footer-logo .footer-tours-logo {
       color: #00dc81 !important;
       position: relative;
       bottom: 14px;
       right: 5px;
-      text-shadow: 2px 2px 1px #000000; }
+      text-shadow: 2px 1px 1px #000000; }
   .site-footer .footer-right {
     text-align: right; }
     .site-footer .footer-right .footer-instagram {
@@ -360,7 +358,7 @@ header {
       .site-footer .footer-nav .col a:hover {
         text-decoration: none;
         color: #00ff95 !important;
-        text-shadow: 2px 2px 1px #000000; }
+        text-shadow: 2px 1px 1px #000000; }
   .site-footer span.rights {
     color: #aaa !important;
     font-size: 10px;
