@@ -31,7 +31,7 @@ header {
         margin-left: 30px;
         clear: both;
         padding-top: 0px;
-        text-shadow: 2px 2px 4px #000000;
+        text-shadow: $textshadow-nav;
     }
 
     .kicker {
@@ -44,6 +44,6 @@ header {
         clear: both;
         margin-top: 30px;
         position: absolute;
-        text-shadow: 2px 2px 4px #000000;
+        text-shadow: $textshadow-nav;
     }
 }
