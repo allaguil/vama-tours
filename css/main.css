@@ -17,7 +17,7 @@ header {
 .h1_wrapper {
   display: none;
   position: relative;
-  top: 300px; }
+  top: 310px; }
   .h1_wrapper h1 {
     font-family: "Cabin Sketch" !important;
     font-size: 50px;
@@ -47,7 +47,8 @@ header {
 
 .bg-light {
   background-color: transparent !important;
-  z-index: 1; }
+  z-index: 1;
+  box-shadow: 2px 2px 4px -2px #000000; }
 
 .sticky-top {
   background-image: linear-gradient(#09a163, #065535); }
@@ -187,7 +188,8 @@ header {
 
 .bg-light {
   background-color: transparent !important;
-  z-index: 1; }
+  z-index: 1;
+  box-shadow: 2px 2px 4px -2px #000000; }
 
 .sticky-top {
   background-image: linear-gradient(#09a163, #065535); }
@@ -285,7 +287,7 @@ header {
 .h1_wrapper {
   display: none;
   position: relative;
-  top: 300px; }
+  top: 310px; }
   .h1_wrapper h1 {
     font-family: "Cabin Sketch" !important;
     font-size: 50px;
