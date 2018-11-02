@@ -20,7 +20,7 @@ header {
   top: 320px; }
   .h1_wrapper h1 {
     font-family: "Cabin Sketch" !important;
-    font-size: 52px;
+    font-size: 51px;
     font-weight: 700;
     color: #00dc81 !important;
     text-transform: uppercase;
@@ -28,7 +28,7 @@ header {
     margin-left: 30px;
     clear: both;
     padding-top: 0px;
-    text-shadow: 3px 3px 1px #000000; }
+    text-shadow: 2px 2px 1px #000000; }
   .h1_wrapper .kicker {
     font-family: "Cabin Sketch" !important;
     font-size: 38px;
@@ -39,7 +39,7 @@ header {
     clear: both;
     margin-top: 30px;
     position: absolute;
-    text-shadow: 3px 3px 1px #000000; }
+    text-shadow: 2px 2px 1px #000000; }
 
 .navbar {
   padding: 0rem 1rem;
@@ -290,7 +290,7 @@ header {
   top: 320px; }
   .h1_wrapper h1 {
     font-family: "Cabin Sketch" !important;
-    font-size: 52px;
+    font-size: 51px;
     font-weight: 700;
     color: #00dc81 !important;
     text-transform: uppercase;
@@ -298,7 +298,7 @@ header {
     margin-left: 30px;
     clear: both;
     padding-top: 0px;
-    text-shadow: 3px 3px 1px #000000; }
+    text-shadow: 2px 2px 1px #000000; }
   .h1_wrapper .kicker {
     font-family: "Cabin Sketch" !important;
     font-size: 38px;
@@ -309,7 +309,7 @@ header {
     clear: both;
     margin-top: 30px;
     position: absolute;
-    text-shadow: 3px 3px 1px #000000; }
+    text-shadow: 2px 2px 1px #000000; }
 
 .site-footer {
   background-color: #151719;
