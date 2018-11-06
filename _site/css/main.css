@@ -132,7 +132,7 @@ header {
       text-shadow: 2px 1px 1px #000000; }
 
 .site-footer {
-  background-color: #151719;
+  background-color: #151719 !important;
   color: #fff;
   height: 220px;
   margin-top: 30px;
@@ -315,8 +315,14 @@ header {
     position: absolute;
     text-shadow: 2px 2px 1px #000000; }
 
+h1.about-header {
+  font-family: "Cabin Sketch" !important;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center; }
+
 .site-footer {
-  background-color: #151719;
+  background-color: #151719 !important;
   color: #fff;
   height: 220px;
   margin-top: 30px;
