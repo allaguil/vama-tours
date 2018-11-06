@@ -1,7 +1,7 @@
 
 .recent-wrapper{
 
-    width: 90%;
+    width: 93%;
     border-bottom: 1px solid #099558;
     margin-left: 15px;
     
@@ -10,5 +10,38 @@
         font-size: 26px;
         color: #099558;
         text-transform: uppercase;
+    }
+}
+
+
+.img-wrap {
+    position: relative;
+    top: 20px;
+
+    .img-recent {
+        width: 100%;
+    }
+
+    .span-wrapper {
+        height: 100%;
+        background: #0000005c;
+        position: absolute;
+        top: 0;
+        width: 92%;
+        padding: 15px;
+        color: #fff;
+        transition: opacity 0.5s linear;
+
+        span {
+            font-family: "Cabin Sketch" !important;
+            position: absolute;
+            text-align: center;
+            color: white;
+            right: 0px;
+            left: 0px;
+            top: 80px;
+            font-size: 32px;
+            text-decoration: underline;
+        }
     }
 }
