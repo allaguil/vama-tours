@@ -315,11 +315,15 @@ header {
     position: absolute;
     text-shadow: 2px 2px 1px #000000; }
 
-h1.about-header {
-  font-family: "Cabin Sketch" !important;
-  font-size: 40px;
-  line-height: 45px;
-  text-align: center; }
+.recent-wrapper {
+  width: 90%;
+  border-bottom: 1px solid #099558;
+  margin-left: 15px; }
+  .recent-wrapper span.recent-header {
+    font-family: "Cabin Sketch" !important;
+    font-size: 26px;
+    color: #099558;
+    text-transform: uppercase; }
 
 .site-footer {
   background-color: #151719 !important;
