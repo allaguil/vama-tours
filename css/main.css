@@ -131,6 +131,44 @@ header {
       color: #00ff95 !important;
       text-shadow: 2px 1px 1px #000000; }
 
+.recent-wrapper {
+  width: 93%;
+  border-bottom: 1px solid #099558;
+  margin-left: 15px; }
+  .recent-wrapper span.recent-header {
+    font-family: "Cabin Sketch" !important;
+    font-size: 26px;
+    color: #099558;
+    text-transform: uppercase; }
+
+.img-wrap {
+  position: relative;
+  top: 20px; }
+  .img-wrap .img-recent {
+    width: 100%; }
+  .img-wrap .span-wrapper {
+    height: 100%;
+    background: #0000005c;
+    position: absolute;
+    top: 0;
+    width: 92%;
+    padding: 15px;
+    color: #fff;
+    transition: opacity 0.5s linear;
+    right: 0px;
+    left: 0px;
+    margin: 0 auto; }
+    .img-wrap .span-wrapper span {
+      font-family: "Cabin Sketch" !important;
+      position: absolute;
+      text-align: center;
+      color: white;
+      right: 0px;
+      left: 0px;
+      top: 80px;
+      font-size: 32px;
+      text-decoration: underline; }
+
 .site-footer {
   background-color: #151719 !important;
   color: #fff;
@@ -335,10 +373,13 @@ header {
     background: #0000005c;
     position: absolute;
     top: 0;
-    width: 93%;
+    width: 92%;
     padding: 15px;
     color: #fff;
-    transition: opacity 0.5s linear; }
+    transition: opacity 0.5s linear;
+    right: 0px;
+    left: 0px;
+    margin: 0 auto; }
     .img-wrap .span-wrapper span {
       font-family: "Cabin Sketch" !important;
       position: absolute;

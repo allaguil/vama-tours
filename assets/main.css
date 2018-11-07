@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700");
+@import url("https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700");
 html, body {
   width: 100%;
   height: 100%;
@@ -7,61 +8,271 @@ html, body {
   overflow-x: hidden; }
 
 header {
-  height: 450px;
-  background: url(./img/banner.jpg) center center;
-  background-size: cover; }
+  height: 470px;
+  background: url("../assets/img/banner.jpg") center center;
+  background-size: cover;
+  position: relative;
+  bottom: 40px; }
+
+.h1_wrapper {
+  display: none;
+  position: relative;
+  top: 320px; }
+  .h1_wrapper h1 {
+    font-family: "Cabin Sketch" !important;
+    font-size: 51px;
+    font-weight: 700;
+    color: #00dc81 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-left: 30px;
+    clear: both;
+    padding-top: 0px;
+    text-shadow: 2px 2px 1px #000000; }
+  .h1_wrapper .kicker {
+    font-family: "Cabin Sketch" !important;
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    clear: both;
+    margin-top: 30px;
+    position: absolute;
+    text-shadow: 2px 2px 1px #000000; }
+
+.navbar {
+  padding: 0rem 1rem;
+  height: 80px; }
+
+.bg-light {
+  background-image: linear-gradient(#09a163, #065535);
+  z-index: 1;
+  box-shadow: 2px 2px 4px -2px #000000; }
+
+.sticky-top {
+  background-image: linear-gradient(#09a163, #065535); }
+
+.navbar-toggler {
+  box-shadow: 2px 2px 4px -2px #000000;
+  border-color: #fff !important;
+  padding: .15rem .65rem !important; }
+
+.burguer-container {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  right: 0.6px; }
+  .burguer-container .bar1, .burguer-container .bar2, .burguer-container .bar3 {
+    width: 15px;
+    height: 2px;
+    background-color: #fff !important;
+    margin: 5px auto;
+    transition: 0.4s ease; }
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-4px, 6px); }
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-4px, -6px); }
+
+.change .bar2 {
+  opacity: 0; }
 
 .logo {
   float: left;
-  margin: 15px 0 0 30px;
-  font-family: 'Cabin Sketch' !important;
+  margin: 0 auto;
+  font-family: "Cabin Sketch" !important;
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 32px;
   text-align: center; }
   .logo .vama-logo {
-    color: red; }
-  .logo .tours-logo {
-    color: blue;
+    color: #fff !important;
     position: relative;
-    bottom: 9px; }
+    top: 10px;
+    right: 21px;
+    text-shadow: 2px 1px 1px #000000; }
+  .logo .tours-logo {
+    color: #00dc81 !important;
+    position: relative;
+    bottom: 14px;
+    right: 20px;
+    text-shadow: 2px 1px 1px #000000; }
 
-nav {
-  float: right;
-  margin: 30px 30px 0 0; }
-  nav a {
-    display: inline-block;
-    margin-left: 20px;
-    color: #fff;
-    font-size: 14px;
-    font-family: 'Cabin Sketch' !important;
-    font-weight: 700;
+.show {
+  background-image: none;
+  border: none;
+  box-shadow: none; }
+
+.navbar-collapse {
+  background-image: linear-gradient(#09a163, #065535);
+  top: -56px;
+  display: block;
+  position: absolute;
+  margin: 136px -16px 0px;
+  width: 180px;
+  border: 1px solid #1b8a61;
+  box-shadow: 5px 20px 28px #000000; }
+  .navbar-collapse .nav-item {
+    list-style: none; }
+    .navbar-collapse .nav-item .nav-link {
+      font-family: "Cabin Sketch" !important;
+      display: block;
+      color: #fff !important;
+      font-size: 22px;
+      height: 50px;
+      padding: 10px 0px 0px 0px;
+      position: relative;
+      top: 8px;
+      right: 14px;
+      text-transform: "uppercase" !important;
+      text-shadow: 2px 1px 1px #000000; }
+    .navbar-collapse .nav-item a:hover {
+      color: #00ff95 !important;
+      text-shadow: 2px 1px 1px #000000; }
+
+.site-footer {
+  background-color: #151719 !important;
+  color: #fff;
+  height: 220px;
+  margin-top: 30px;
+  padding-top: 30px; }
+  .site-footer .footer-logo {
+    text-align: left;
+    margin-right: 20px;
+    font-family: "Cabin Sketch" !important;
     text-transform: uppercase;
-    text-decoration: none; }
-    nav a:hover {
-      color: black; }
+    font-size: 24px; }
+    .site-footer .footer-logo .footer-vama-logo {
+      color: #fff !important;
+      position: relative;
+      top: 3px;
+      text-shadow: 2px 1px 1px #000000; }
+    .site-footer .footer-logo .footer-tours-logo {
+      color: #00dc81 !important;
+      position: relative;
+      bottom: 14px;
+      right: 5px;
+      text-shadow: 2px 1px 1px #000000; }
+  .site-footer .footer-right {
+    text-align: right; }
+    .site-footer .footer-right .footer-instagram {
+      width: 35px;
+      height: 35px;
+      margin: 12px auto; }
+  .site-footer .footer-line {
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    border-top: 1px solid gray; }
+  .site-footer .footer-line.two {
+    top: 10px; }
+  .site-footer .footer-nav {
+    font-family: "Cabin Sketch" !important; }
+    .site-footer .footer-nav .col {
+      text-transform: uppercase;
+      display: inline-block; }
+      .site-footer .footer-nav .col a {
+        color: #fff !important;
+        margin: 15px; }
+      .site-footer .footer-nav .col a:hover {
+        text-decoration: none;
+        color: #00ff95 !important;
+        text-shadow: 2px 1px 1px #000000; }
+  .site-footer span.rights {
+    color: #aaa !important;
+    font-size: 10px;
+    float: right; }
 
-.h1_wrapper {
+.navbar {
+  padding: 0rem 1rem;
+  height: 80px; }
+
+.bg-light {
+  background-image: linear-gradient(#09a163, #065535);
+  z-index: 1;
+  box-shadow: 2px 2px 4px -2px #000000; }
+
+.sticky-top {
+  background-image: linear-gradient(#09a163, #065535); }
+
+.navbar-toggler {
+  box-shadow: 2px 2px 4px -2px #000000;
+  border-color: #fff !important;
+  padding: .15rem .65rem !important; }
+
+.burguer-container {
+  display: inline-block;
+  cursor: pointer;
   position: relative;
-  top: 220px; }
-  .h1_wrapper h1 {
-    font-family: 'Cabin Sketch' !important;
-    font-size: 49px;
-    font-weight: 700;
-    color: #1452b6;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-left: 20px;
-    clear: both;
-    padding-top: 0px; }
-  .h1_wrapper .kicker {
-    font-family: 'Cabin Sketch' !important;
-    font-size: 34px;
-    font-weight: 700;
-    color: red;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    line-height: 1;
-    clear: both; }
+  right: 0.6px; }
+  .burguer-container .bar1, .burguer-container .bar2, .burguer-container .bar3 {
+    width: 15px;
+    height: 2px;
+    background-color: #fff !important;
+    margin: 5px auto;
+    transition: 0.4s ease; }
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-4px, 6px); }
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-4px, -6px); }
+
+.change .bar2 {
+  opacity: 0; }
+
+.logo {
+  float: left;
+  margin: 0 auto;
+  font-family: "Cabin Sketch" !important;
+  text-transform: uppercase;
+  font-size: 32px;
+  text-align: center; }
+  .logo .vama-logo {
+    color: #fff !important;
+    position: relative;
+    top: 10px;
+    right: 21px;
+    text-shadow: 2px 1px 1px #000000; }
+  .logo .tours-logo {
+    color: #00dc81 !important;
+    position: relative;
+    bottom: 14px;
+    right: 20px;
+    text-shadow: 2px 1px 1px #000000; }
+
+.show {
+  background-image: none;
+  border: none;
+  box-shadow: none; }
+
+.navbar-collapse {
+  background-image: linear-gradient(#09a163, #065535);
+  top: -56px;
+  display: block;
+  position: absolute;
+  margin: 136px -16px 0px;
+  width: 180px;
+  border: 1px solid #1b8a61;
+  box-shadow: 5px 20px 28px #000000; }
+  .navbar-collapse .nav-item {
+    list-style: none; }
+    .navbar-collapse .nav-item .nav-link {
+      font-family: "Cabin Sketch" !important;
+      display: block;
+      color: #fff !important;
+      font-size: 22px;
+      height: 50px;
+      padding: 10px 0px 0px 0px;
+      position: relative;
+      top: 8px;
+      right: 14px;
+      text-transform: "uppercase" !important;
+      text-shadow: 2px 1px 1px #000000; }
+    .navbar-collapse .nav-item a:hover {
+      color: #00ff95 !important;
+      text-shadow: 2px 1px 1px #000000; }
 
 html, body {
   width: 100%;
@@ -71,60 +282,125 @@ html, body {
   overflow-x: hidden; }
 
 header {
-  height: 450px;
-  background: url(./img/banner.jpg) center center;
-  background-size: cover; }
-
-.logo {
-  float: left;
-  margin: 15px 0 0 30px;
-  font-family: 'Cabin Sketch' !important;
-  text-transform: uppercase;
-  font-size: 22px;
-  text-align: center; }
-  .logo .vama-logo {
-    color: red; }
-  .logo .tours-logo {
-    color: blue;
-    position: relative;
-    bottom: 9px; }
-
-nav {
-  float: right;
-  margin: 30px 30px 0 0; }
-  nav a {
-    display: inline-block;
-    margin-left: 20px;
-    color: #fff;
-    font-size: 14px;
-    font-family: 'Cabin Sketch' !important;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none; }
-    nav a:hover {
-      color: black; }
+  height: 470px;
+  background: url("../assets/img/banner.jpg") center center;
+  background-size: cover;
+  position: relative;
+  bottom: 40px; }
 
 .h1_wrapper {
+  display: none;
   position: relative;
-  top: 220px; }
+  top: 320px; }
   .h1_wrapper h1 {
-    font-family: 'Cabin Sketch' !important;
-    font-size: 49px;
+    font-family: "Cabin Sketch" !important;
+    font-size: 51px;
     font-weight: 700;
-    color: #1452b6;
+    color: #00dc81 !important;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin-left: 20px;
+    margin-left: 30px;
     clear: both;
-    padding-top: 0px; }
+    padding-top: 0px;
+    text-shadow: 2px 2px 1px #000000; }
   .h1_wrapper .kicker {
-    font-family: 'Cabin Sketch' !important;
-    font-size: 34px;
+    font-family: "Cabin Sketch" !important;
+    font-size: 38px;
     font-weight: 700;
-    color: red;
-    text-transform: uppercase;
+    color: #fff;
     letter-spacing: 0.05em;
     line-height: 1;
-    clear: both; }
+    clear: both;
+    margin-top: 30px;
+    position: absolute;
+    text-shadow: 2px 2px 1px #000000; }
+
+.recent-wrapper {
+  width: 93%;
+  border-bottom: 1px solid #099558;
+  margin-left: 15px; }
+  .recent-wrapper span.recent-header {
+    font-family: "Cabin Sketch" !important;
+    font-size: 26px;
+    color: #099558;
+    text-transform: uppercase; }
+
+.img-wrap {
+  position: relative;
+  top: 20px; }
+  .img-wrap .img-recent {
+    width: 100%; }
+  .img-wrap .span-wrapper {
+    height: 100%;
+    background: #0000005c;
+    position: absolute;
+    top: 0;
+    width: 93%;
+    padding: 15px;
+    color: #fff;
+    transition: opacity 0.5s linear; }
+    .img-wrap .span-wrapper span {
+      font-family: "Cabin Sketch" !important;
+      position: absolute;
+      text-align: center;
+      color: white;
+      right: 0px;
+      left: 0px;
+      top: 80px;
+      font-size: 32px;
+      text-decoration: underline; }
+
+.site-footer {
+  background-color: #151719 !important;
+  color: #fff;
+  height: 220px;
+  margin-top: 30px;
+  padding-top: 30px; }
+  .site-footer .footer-logo {
+    text-align: left;
+    margin-right: 20px;
+    font-family: "Cabin Sketch" !important;
+    text-transform: uppercase;
+    font-size: 24px; }
+    .site-footer .footer-logo .footer-vama-logo {
+      color: #fff !important;
+      position: relative;
+      top: 3px;
+      text-shadow: 2px 1px 1px #000000; }
+    .site-footer .footer-logo .footer-tours-logo {
+      color: #00dc81 !important;
+      position: relative;
+      bottom: 14px;
+      right: 5px;
+      text-shadow: 2px 1px 1px #000000; }
+  .site-footer .footer-right {
+    text-align: right; }
+    .site-footer .footer-right .footer-instagram {
+      width: 35px;
+      height: 35px;
+      margin: 12px auto; }
+  .site-footer .footer-line {
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    border-top: 1px solid gray; }
+  .site-footer .footer-line.two {
+    top: 10px; }
+  .site-footer .footer-nav {
+    font-family: "Cabin Sketch" !important; }
+    .site-footer .footer-nav .col {
+      text-transform: uppercase;
+      display: inline-block; }
+      .site-footer .footer-nav .col a {
+        color: #fff !important;
+        margin: 15px; }
+      .site-footer .footer-nav .col a:hover {
+        text-decoration: none;
+        color: #00ff95 !important;
+        text-shadow: 2px 1px 1px #000000; }
+  .site-footer span.rights {
+    color: #aaa !important;
+    font-size: 10px;
+    float: right; }
 
 /*# sourceMappingURL=main.css.map */

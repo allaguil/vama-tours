@@ -27,10 +27,13 @@
         background: #0000005c;
         position: absolute;
         top: 0;
-        width: 93%;
+        width: 92%;
         padding: 15px;
         color: #fff;
         transition: opacity 0.5s linear;
+        right: 0px;
+        left: 0px;
+        margin: 0 auto;
 
         span {
             font-family: "Cabin Sketch" !important;
