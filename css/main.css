@@ -132,9 +132,8 @@ header {
       text-shadow: 2px 1px 1px #000000; }
 
 .recent-wrapper {
-  width: 93%;
-  border-bottom: 1px solid #099558;
-  margin-left: 15px; }
+  width: 100%;
+  border-bottom: 1px solid #099558; }
   .recent-wrapper span.recent-header {
     font-family: "Cabin Sketch" !important;
     font-size: 26px;
@@ -143,7 +142,7 @@ header {
 
 .img-wrap {
   position: relative;
-  top: 20px; }
+  margin-top: 10px; }
   .img-wrap .img-recent {
     width: 100%; }
   .img-wrap .span-wrapper {
@@ -353,9 +352,8 @@ header {
     text-shadow: 2px 2px 1px #000000; }
 
 .recent-wrapper {
-  width: 93%;
-  border-bottom: 1px solid #099558;
-  margin-left: 15px; }
+  width: 100%;
+  border-bottom: 1px solid #099558; }
   .recent-wrapper span.recent-header {
     font-family: "Cabin Sketch" !important;
     font-size: 26px;
@@ -364,7 +362,7 @@ header {
 
 .img-wrap {
   position: relative;
-  top: 20px; }
+  margin-top: 10px; }
   .img-wrap .img-recent {
     width: 100%; }
   .img-wrap .span-wrapper {

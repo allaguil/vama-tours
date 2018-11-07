@@ -1,9 +1,9 @@
 
 .recent-wrapper{
 
-    width: 93%;
+    width: 100%;
     border-bottom: 1px solid #099558;
-    margin-left: 15px;
+
     
     span.recent-header {
         font-family: $vama-font-family;
@@ -16,7 +16,7 @@
 
 .img-wrap {
     position: relative;
-    top: 20px;
+    margin-top: 10px;
 
     .img-recent {
         width: 100%;
